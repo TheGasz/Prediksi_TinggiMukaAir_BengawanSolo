@@ -1,0 +1,53 @@
+# Project datasets and generated predictions
+/datasets/*
+!/datasets/.gitkeep
+/handoff/
+/train.csv
+/test.csv
+/sample_submission.csv
+/submission*.csv
+
+# Generated model artifacts
+*.cbm
+*.pkl
+*.pickle
+*.joblib
+*.onnx
+*.npy
+*.npz
+
+# Python caches, environments, and build output
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary files and logs
+*.log
+*.tmp
+*.temp
+*.bak
+*~

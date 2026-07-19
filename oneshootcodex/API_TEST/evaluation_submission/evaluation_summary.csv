@@ -1,0 +1,2 @@
+submission,answer_key,total_rows,matched_rows,coverage,api_rmse,api_mae,api_bias,api_median_abs_error,api_max_abs_error,estimated_competition_rmse,regression_intercept,regression_slope,regression_sample_count,regression_residual_rmse
+submission.csv,D:\Bagas\SSDS\API_TEST\api_manual_reference_clean.csv,21780,21780,1.0,0.8543261878498629,0.5300519692367771,-0.031754971123228795,0.2752007716387954,6.038468642001774,1.5977989828997268,1.8721837737,0.9327343204,7,0.01482

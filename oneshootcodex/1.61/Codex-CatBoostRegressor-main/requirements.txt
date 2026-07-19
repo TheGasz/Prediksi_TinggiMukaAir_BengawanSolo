@@ -1,0 +1,7 @@
+catboost>=1.2.8,<2
+geopandas>=1.0,<2
+numpy>=1.26,<3
+pandas>=2.2,<3
+pyogrio>=0.10,<1
+scikit-learn>=1.6,<2
+shapely>=2.0,<3
