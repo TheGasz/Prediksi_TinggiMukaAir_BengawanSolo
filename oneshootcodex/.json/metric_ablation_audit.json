@@ -1,0 +1,41 @@
+{
+  "experiment": "legacy_validation_metric_vs_rmse",
+  "objective_locked": "huber",
+  "members": [
+    {
+      "name": "cb_shallow",
+      "family": "catboost"
+    },
+    {
+      "name": "lgbm_a",
+      "family": "lightgbm"
+    }
+  ],
+  "folds": [
+    "sep_2024",
+    "jan_2025"
+  ],
+  "feature_count_both_variants": 84,
+  "feature_parity_passed": true,
+  "metric_mapping": {
+    "current": {
+      "catboost": "MAE",
+      "lightgbm": "objective default (Huber)"
+    },
+    "rmse": {
+      "catboost": "RMSE",
+      "lightgbm": "rmse"
+    }
+  },
+  "locked_settings": {
+    "target_mode": "raw_robust",
+    "use_spike_weights": false,
+    "prune_features": false,
+    "enable_anchor_feature": false,
+    "enable_learned_ensemble_weights": false,
+    "enable_harmonic_feature": true,
+    "nino_34_included": true
+  },
+  "only_intended_difference": "early_stopping_metric",
+  "target_period_api_used": false
+}

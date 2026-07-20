@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.0",
+  "run_id": "handoff_20260720T095756Z_validate",
+  "mode": "validate",
+  "status": "complete",
+  "stage": "complete",
+  "started_at_utc": "2026-07-20T09:57:56.447593+00:00",
+  "input_dir": "/kaggle/input/competitions/sebelas-maret-statistics-data-science-2026",
+  "output_root": "/kaggle/working",
+  "ensemble": [
+    "cb_shallow",
+    "cb_base",
+    "cb_deep",
+    "lgbm_a",
+    "lgbm_b"
+  ],
+  "use_spike_weights": false,
+  "prune_features": false,
+  "core_handoff_files": [
+    "manifest.json",
+    "config.json",
+    "runtime_versions.json",
+    "input_inventory.json",
+    "data/train_features.*",
+    "data/test_features.*",
+    "data/train_sample_diagnostics.*",
+    "metrics/environment_drift.csv",
+    "run.log"
+  ],
+  "mode_dependent_files": [
+    "metrics/oof_predictions.*",
+    "metrics/validation_metrics.csv",
+    "metrics/member_metrics.csv",
+    "metrics/fold_station_metrics.csv",
+    "metrics/residual_slices.csv",
+    "metrics/feature_importance.csv",
+    "metrics/final_feature_importance.csv",
+    "training_progress/",
+    "models/",
+    "submission.csv",
+    "submission_quantiles.csv"
+  ],
+  "feature_count": 84,
+  "updated_at_utc": "2026-07-20T10:03:08.295160+00:00",
+  "training_started_at_utc": "2026-07-20T09:58:05.441976+00:00",
+  "completed_folds": [
+    "sep_2023",
+    "may_2024",
+    "sep_2024",
+    "jan_2025"
+  ],
+  "recommended_iterations": {
+    "cb_shallow": 124,
+    "cb_base": 428,
+    "cb_deep": 215,
+    "lgbm_a": 143,
+    "lgbm_b": 242
+  },
+  "ensemble_weights": {
+    "cb_shallow": 0.0,
+    "cb_base": 0.0,
+    "cb_deep": 0.4441326544045664,
+    "lgbm_a": 0.0,
+    "lgbm_b": 0.5558673455954336
+  },
+  "completed_at_utc": "2026-07-20T10:03:08.295035+00:00",
+  "handoff_zip": "/kaggle/working/handoff_20260720T095756Z_validate_complete.zip"
+}

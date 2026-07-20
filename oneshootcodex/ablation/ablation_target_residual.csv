@@ -1,0 +1,5 @@
+fold,model_mae,model_rmse,model_macro_station_mae,model_worst_station_mae,model_p95_absolute_error,variant,target_mode,member,n_features,baseline_feature_count,anchor_off_frozen_parity,use_spike_weights,prune_features,enable_learned_ensemble_weights
+sep_2024,0.6194726292910339,1.2403632177133737,0.6200948910291658,1.3551406415632246,2.107593055810701,target_raw_robust,raw_robust,lgbm_a,84,84,True,False,False,False
+jan_2025,0.5391772317708677,1.199048501174037,0.5397146037680902,1.7652690847847305,1.89867568787823,target_raw_robust,raw_robust,lgbm_a,84,84,True,False,False,False
+sep_2024,0.6730607967560301,1.3183528897892651,0.6735719678454597,1.939483239189793,2.2626632703404503,target_harmonic_residual,harmonic_residual,lgbm_a,84,84,True,False,False,False
+jan_2025,0.6100942582749316,1.2616074346813366,0.6105861422032585,1.346883326099164,2.1216005588960645,target_harmonic_residual,harmonic_residual,lgbm_a,84,84,True,False,False,False

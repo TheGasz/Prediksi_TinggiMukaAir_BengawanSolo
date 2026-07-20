@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0",
+  "run_id": "handoff_20260720T063605Z_all",
+  "mode": "all",
+  "status": "complete",
+  "stage": "complete",
+  "started_at_utc": "2026-07-20T06:36:05.664902+00:00",
+  "input_dir": "/kaggle/input/competitions/sebelas-maret-statistics-data-science-2026",
+  "output_root": "/kaggle/working",
+  "ensemble": [
+    "cb_shallow",
+    "cb_base",
+    "cb_deep",
+    "lgbm_a",
+    "lgbm_b"
+  ],
+  "use_spike_weights": false,
+  "prune_features": true,
+  "core_handoff_files": [
+    "manifest.json",
+    "config.json",
+    "runtime_versions.json",
+    "input_inventory.json",
+    "data/train_features.*",
+    "data/test_features.*",
+    "data/train_sample_diagnostics.*",
+    "metrics/environment_drift.csv",
+    "run.log"
+  ],
+  "mode_dependent_files": [
+    "metrics/oof_predictions.*",
+    "metrics/validation_metrics.csv",
+    "metrics/member_metrics.csv",
+    "metrics/fold_station_metrics.csv",
+    "metrics/residual_slices.csv",
+    "metrics/feature_importance.csv",
+    "metrics/final_feature_importance.csv",
+    "training_progress/",
+    "models/",
+    "submission.csv",
+    "submission_quantiles.csv"
+  ],
+  "feature_count": 87,
+  "updated_at_utc": "2026-07-20T06:44:54.351075+00:00",
+  "training_started_at_utc": "2026-07-20T06:36:13.803359+00:00",
+  "completed_folds": [
+    "sep_2023",
+    "may_2024",
+    "sep_2024",
+    "jan_2025"
+  ],
+  "recommended_iterations": {
+    "cb_shallow": 506,
+    "cb_base": 1383,
+    "cb_deep": 260,
+    "lgbm_a": 639,
+    "lgbm_b": 350
+  },
+  "final_training_started_at_utc": "2026-07-20T06:43:38.924296+00:00",
+  "iteration_source": "current_validation",
+  "completed_final_members": [
+    "cb_shallow",
+    "cb_base",
+    "cb_deep",
+    "lgbm_a",
+    "lgbm_b"
+  ],
+  "final_iterations_by_member": {
+    "cb_shallow": 506,
+    "cb_base": 1383,
+    "cb_deep": 260,
+    "lgbm_a": 639,
+    "lgbm_b": 350
+  },
+  "completed_at_utc": "2026-07-20T06:44:54.350927+00:00",
+  "handoff_zip": "/kaggle/working/handoff_20260720T063605Z_all_complete.zip"
+}

@@ -1,0 +1,9 @@
+fold,target_mode,model_mae,model_rmse,model_macro_station_mae,model_worst_station_mae,model_p95_absolute_error,variant,early_stopping_metric,member,family,n_features,baseline_feature_count,anchor_off_frozen_parity,use_spike_weights,prune_features,enable_learned_ensemble_weights
+sep_2024,raw_robust,0.590937303894961,1.1996173270859225,0.5914550597104444,1.1934945883443246,1.9542582985252714,early_stop_current,current,cb_shallow,catboost,84,84,True,False,False,False
+jan_2025,raw_robust,0.5283173624616132,1.1883578841864124,0.5288627570999349,1.3190275601108705,1.7808966675267985,early_stop_current,current,cb_shallow,catboost,84,84,True,False,False,False
+sep_2024,raw_robust,0.6180130221736746,1.2388818927582341,0.6186378839854921,1.3349725934446401,2.0874394916606143,early_stop_current,current,lgbm_a,lightgbm,84,84,True,False,False,False
+jan_2025,raw_robust,0.5414629334139985,1.1984300666919003,0.5420091733990471,1.7112953334181218,1.8850751279136344,early_stop_current,current,lgbm_a,lightgbm,84,84,True,False,False,False
+sep_2024,raw_robust,0.6125199583000378,1.22459108204284,0.6130228000425942,1.425301569912081,2.029077297494094,early_stop_rmse,rmse,cb_shallow,catboost,84,84,True,False,False,False
+jan_2025,raw_robust,0.53300622598086,1.1805047911384534,0.5335171246971853,1.3435722600150237,1.7559542898295681,early_stop_rmse,rmse,cb_shallow,catboost,84,84,True,False,False,False
+sep_2024,raw_robust,0.626116515785188,1.251854369373303,0.6267181589160221,1.3607070064879734,2.12571314841984,early_stop_rmse,rmse,lgbm_a,lightgbm,84,84,True,False,False,False
+jan_2025,raw_robust,0.5379374443751779,1.1951480298392037,0.5384746375579501,1.7412308986653413,1.882241646217299,early_stop_rmse,rmse,lgbm_a,lightgbm,84,84,True,False,False,False

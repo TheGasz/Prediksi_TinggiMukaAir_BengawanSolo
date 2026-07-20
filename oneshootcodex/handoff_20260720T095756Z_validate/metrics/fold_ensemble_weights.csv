@@ -1,0 +1,5 @@
+fold,weight_source,history_rows,weight_cb_shallow,weight_cb_base,weight_cb_deep,weight_lgbm_a,weight_lgbm_b
+sep_2023,equal_first_fold_or_disabled,0,0.2,0.2,0.2,0.2,0.2
+may_2024,prior_oof_before_cutoff,20696,0.0,0.0,0.5153451074301206,0.0,0.4846548925698794
+sep_2024,prior_oof_before_cutoff,31396,0.0,0.0,0.33425475345407385,0.0,0.6657452465459262
+jan_2025,prior_oof_before_cutoff,52988,0.0,0.0,0.23105502753558965,0.0,0.7689449724644103

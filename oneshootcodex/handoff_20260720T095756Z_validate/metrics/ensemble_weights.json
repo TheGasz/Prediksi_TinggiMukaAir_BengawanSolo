@@ -1,0 +1,24 @@
+{
+  "method": "regularized_simplex_rmse",
+  "member_order": [
+    "cb_shallow",
+    "cb_base",
+    "cb_deep",
+    "lgbm_a",
+    "lgbm_b"
+  ],
+  "final_weights": {
+    "cb_shallow": 0.0,
+    "cb_base": 0.0,
+    "cb_deep": 0.4441326544045664,
+    "lgbm_a": 0.0,
+    "lgbm_b": 0.5558673455954336
+  },
+  "fit_folds": [
+    "sep_2023",
+    "sep_2024"
+  ],
+  "fit_rows": 40210,
+  "ridge_strength": 0.05,
+  "target_period_api_used": false
+}

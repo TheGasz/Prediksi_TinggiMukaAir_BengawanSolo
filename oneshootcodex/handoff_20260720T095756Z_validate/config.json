@@ -1,0 +1,114 @@
+{
+  "ensemble": [
+    {
+      "name": "cb_shallow",
+      "family": "catboost",
+      "seed": 17,
+      "depth": 6,
+      "learning_rate": 0.045,
+      "l2_leaf_reg": 8.0,
+      "num_leaves": 63,
+      "feature_fraction": 0.9,
+      "bagging_fraction": 0.85,
+      "min_child_samples": 25
+    },
+    {
+      "name": "cb_base",
+      "family": "catboost",
+      "seed": 41,
+      "depth": 8,
+      "learning_rate": 0.02,
+      "l2_leaf_reg": 10.0,
+      "num_leaves": 63,
+      "feature_fraction": 0.9,
+      "bagging_fraction": 0.85,
+      "min_child_samples": 25
+    },
+    {
+      "name": "cb_deep",
+      "family": "catboost",
+      "seed": 83,
+      "depth": 8,
+      "learning_rate": 0.045,
+      "l2_leaf_reg": 6.0,
+      "num_leaves": 63,
+      "feature_fraction": 0.9,
+      "bagging_fraction": 0.85,
+      "min_child_samples": 25
+    },
+    {
+      "name": "lgbm_a",
+      "family": "lightgbm",
+      "seed": 7,
+      "depth": 8,
+      "learning_rate": 0.03,
+      "l2_leaf_reg": 10.0,
+      "num_leaves": 63,
+      "feature_fraction": 0.85,
+      "bagging_fraction": 0.8,
+      "min_child_samples": 25
+    },
+    {
+      "name": "lgbm_b",
+      "family": "lightgbm",
+      "seed": 29,
+      "depth": 8,
+      "learning_rate": 0.02,
+      "l2_leaf_reg": 10.0,
+      "num_leaves": 127,
+      "feature_fraction": 0.7,
+      "bagging_fraction": 0.8,
+      "min_child_samples": 25
+    }
+  ],
+  "folds": [
+    [
+      "sep_2023",
+      "2023-09-18 18:00:00",
+      "2023-09-19 06:00:00",
+      "2024-05-18 18:00:00"
+    ],
+    [
+      "may_2024",
+      "2024-05-18 18:00:00",
+      "2024-05-19 06:00:00",
+      "2025-01-18 18:00:00"
+    ],
+    [
+      "sep_2024",
+      "2024-09-18 18:00:00",
+      "2024-09-19 06:00:00",
+      "2025-05-18 18:00:00"
+    ],
+    [
+      "jan_2025",
+      "2025-01-18 18:00:00",
+      "2025-01-19 06:00:00",
+      "2025-09-18 18:00:00"
+    ]
+  ],
+  "mode": "validate",
+  "huber_delta": 1.5,
+  "early_stopping_rounds": 200,
+  "use_spike_weights": false,
+  "prune_features": false,
+  "feature_importance_source": null,
+  "prune_keep_fraction": 0.85,
+  "enable_quantile_model": false,
+  "quantile_levels": [
+    0.1,
+    0.5,
+    0.9
+  ],
+  "enable_harmonic_feature": true,
+  "enable_anchor_feature": false,
+  "frozen_anchor_off_feature_count": 84,
+  "enable_learned_ensemble_weights": true,
+  "blend_ridge_strength": 0.05,
+  "blend_fit_folds": [
+    "sep_2023",
+    "sep_2024"
+  ],
+  "requested_iterations_by_member": null,
+  "save_feature_matrices": true
+}

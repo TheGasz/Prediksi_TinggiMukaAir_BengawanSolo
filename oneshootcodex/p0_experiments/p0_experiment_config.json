@@ -1,0 +1,39 @@
+{
+  "member": {
+    "name": "lgbm_b",
+    "family": "lightgbm",
+    "seed": 29,
+    "depth": 8,
+    "learning_rate": 0.02,
+    "l2_leaf_reg": 10.0,
+    "num_leaves": 127,
+    "feature_fraction": 0.7,
+    "bagging_fraction": 0.8,
+    "min_child_samples": 25
+  },
+  "folds": [
+    [
+      "sep_2024",
+      "2024-09-18 18:00:00",
+      "2024-09-19 06:00:00",
+      "2025-05-18 18:00:00"
+    ],
+    [
+      "jan_2025",
+      "2025-01-18 18:00:00",
+      "2025-01-19 06:00:00",
+      "2025-09-18 18:00:00"
+    ]
+  ],
+  "shared_feature_count": 87,
+  "pseudo_stride_days": 60,
+  "pseudo_min_history_days": 180,
+  "pseudo_max_horizon_days": 242,
+  "solar_augmentation_fraction": 0.5,
+  "solar_test_missing_profile": {
+    "test_missing_cell_fraction": 0.5743801652892562,
+    "first_missing_datetime": "2025-12-31 06:00:00",
+    "tail_start_fraction": 0.42650103519668736
+  },
+  "target_period_api_used": false
+}
