@@ -1,9 +1,0 @@
-fold,target_mode,best_iteration,model_mae,model_rmse,model_macro_station_mae,model_worst_station_mae,model_p95_absolute_error,variant,lightgbm_huber_alpha,catboost_huber_delta_unchanged,early_stopping_metric,member,family,n_features,baseline_feature_count,anchor_off_frozen_parity,use_spike_weights,prune_features,enable_learned_ensemble_weights
-sep_2024,raw_robust,352,0.6039183324835918,1.224243774987748,0.6045550199123345,1.3612027980401364,2.072130363622318,lgbm_huber_alpha_0.7,0.7,1.5,current,lgbm_a,lightgbm,84,84,True,False,False,False
-jan_2025,raw_robust,346,0.5447636646152294,1.2071641730419351,0.5453030924638107,1.8769063427180261,1.970551376569696,lgbm_huber_alpha_0.7,0.7,1.5,current,lgbm_a,lightgbm,84,84,True,False,False,False
-sep_2024,raw_robust,338,0.6076560831097668,1.2277976736886833,0.6082988225364511,1.2573346624723483,2.085277768328889,lgbm_huber_alpha_0.9,0.9,1.5,current,lgbm_a,lightgbm,84,84,True,False,False,False
-jan_2025,raw_robust,229,0.5438471472072682,1.207919914554414,0.5443819289330781,1.9555035768121674,1.9587138360188812,lgbm_huber_alpha_0.9,0.9,1.5,current,lgbm_a,lightgbm,84,84,True,False,False,False
-sep_2024,raw_robust,250,0.6196403559597785,1.24249111781426,0.6202823758145073,1.3793983773707896,2.0946447589119583,lgbm_huber_alpha_1.2,1.2,1.5,current,lgbm_a,lightgbm,84,84,True,False,False,False
-jan_2025,raw_robust,229,0.545897360860677,1.2059289734933094,0.5464214264707635,1.9466345399489324,1.9353231894248313,lgbm_huber_alpha_1.2,1.2,1.5,current,lgbm_a,lightgbm,84,84,True,False,False,False
-sep_2024,raw_robust,189,0.6212285746038438,1.242305266439506,0.6218565937524069,1.383451901125525,2.1075083704599082,lgbm_huber_alpha_1.5,1.5,1.5,current,lgbm_a,lightgbm,84,84,True,False,False,False
-jan_2025,raw_robust,132,0.5417726703404936,1.200888583111592,0.5423187750889125,1.7577440317113218,1.9121835008891528,lgbm_huber_alpha_1.5,1.5,1.5,current,lgbm_a,lightgbm,84,84,True,False,False,False
